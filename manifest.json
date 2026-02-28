@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Change Table",
+  "version": "1.0",
+  "description": "Thay đổi bố cục bàn ghế.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
