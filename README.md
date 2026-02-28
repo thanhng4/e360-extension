@@ -119,5 +119,5 @@ với hệ thống ngoài phạm vi hiển thị giao diện
 
 ## 📌 Thông tin phiên bản
 
-Phiên bản hiện tại: 1.0.0\
-Tác giả: (Cập nhật tên của bạn)
+Phiên bản hiện tại: 1.0.1\
+Tác giả: ThanhNG4
