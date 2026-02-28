@@ -64,34 +64,34 @@ style.textContent = `
 #e360-box-left {
   position: fixed;
   top: 50%;
-  left: 20px;
+  left: 10px;
   transform: translateY(-50%);
   background: #222;
   color: #fff;
   padding: 14px 18px;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.4);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   z-index: 9999;
-  max-width: 260px;
+  max-width: 150px;
 }
 
 /* Box nhắc nhở phải */
 #e360-box-right {
   position: fixed;
   top: 50%;
-  right: 20px;
+  right: 10px;
   transform: translateY(-50%);
   background: #b30000;
   color: #fff;
   padding: 14px 18px;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.4);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   z-index: 9999;
-  max-width: 260px;
+  max-width: 150px;
 }
 `;
 document.head.appendChild(style);
