@@ -161,8 +161,7 @@ document.body.appendChild(boxLeft);
 const boxRight = document.createElement('div');
 boxRight.id = 'e360-box-right';
 boxRight.innerHTML = `
-  🚫 KHÔNG để điện thoại<br>
-  trên người.
+  🚫 KHÔNG để điện thoại trên người.
 `;
 document.body.appendChild(boxRight);
 
