@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Change Table",
-  "version": "1.0",
-  "description": "Thay đổi bố cục bàn ghế.",
+  "version": "1.0.1",
+  "description": "Thay đổi bố cục bàn ghế trên e360.fpt.edu.vn.",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
