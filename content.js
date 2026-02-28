@@ -60,6 +60,39 @@ style.textContent = `
   text-align: center;
   vertical-align: middle;
 }
+/* Box nhắc nhở trái */
+#e360-box-left {
+  position: fixed;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  background: #222;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 9999;
+  max-width: 260px;
+}
+
+/* Box nhắc nhở phải */
+#e360-box-right {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background: #b30000;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 9999;
+  max-width: 260px;
+}
 `;
 document.head.appendChild(style);
 
@@ -113,6 +146,25 @@ examBox.innerHTML = `
 `;
 document.body.appendChild(examBox);
 
+// ===== Box bên trái (Wifi) =====
+const boxLeft = document.createElement('div');
+boxLeft.id = 'e360-box-left';
+boxLeft.innerHTML = `
+  📶 Mật khẩu wifi:<br>
+  <span style="color:#00ffcc;">FU-Exam@</span><br><br>
+  ⚠️ FORGET tất cả wifi
+`;
+document.body.appendChild(boxLeft);
+
+
+// ===== Box bên phải (Quy định điện thoại) =====
+const boxRight = document.createElement('div');
+boxRight.id = 'e360-box-right';
+boxRight.innerHTML = `
+  🚫 KHÔNG để điện thoại<br>
+  trên người.
+`;
+document.body.appendChild(boxRight);
 
 
 // ===== 5️⃣ Rút gọn tên =====
