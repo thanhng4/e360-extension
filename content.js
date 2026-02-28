@@ -24,7 +24,7 @@ style.textContent = `
 
 /* Box mã đề */
 #e360-box-user {
-  bottom: 30px;
+  bottom: 10px;
   background: #007acc;
 }
 
